@@ -1,0 +1,154 @@
+{
+  "disciplinas": [
+    {
+      "id": "gerais",
+      "nome": "Conhecimentos Gerais e Didático-Pedagógicos",
+      "arquivo": "gerais-didatico-pedagogico.json",
+      "total_questoes": 254
+    },
+    {
+      "id": "geografia",
+      "nome": "Conhecimentos Específicos em Geografia",
+      "arquivo": "geografia.json",
+      "total_questoes": 160
+    },
+    {
+      "id": "portugues",
+      "nome": "Língua Portuguesa",
+      "arquivo": "portugues.json",
+      "total_questoes": 108
+    },
+    {
+      "id": "educacao-especial",
+      "nome": "Educação Especial",
+      "arquivo": "educacao-especial.json",
+      "total_questoes": 8
+    },
+    {
+      "id": "educacao-infantil",
+      "nome": "Educação Infantil",
+      "arquivo": "educacao-infantil.json",
+      "total_questoes": 44
+    }
+  ],
+  "concursos": [
+    {
+      "id": "pss-seduc-sp-2026",
+      "concurso": "PSS SEDUC-SP 2026 - Professor de Ensino Fundamental e Médio - Geografia",
+      "data_prova": "16/08/2026",
+      "banca": "FGV Conhecimento",
+      "numeracao_referencia": "Caderno Tipo 4 (o originalmente transcrito)",
+      "prefixo_id": "pss-<disciplina>-2026-qNN"
+    },
+    {
+      "id": "seletivo-municipal-catanduva-2025",
+      "concurso": "Processo Seletivo 01/2025 - Prefeitura Municipal de Catanduva/SP - Professor II - Geografia",
+      "data_prova": "2025",
+      "banca": "IBAM (Instituto Brasileiro de Administração Municipal)",
+      "numeracao_referencia": "Prova única on-line (numeração de questões 1 a 30: Língua Portuguesa 1-10, Legislação e Conhecimentos Pedagógicos 11-20, Conhecimentos Específicos em Geografia 21-30)",
+      "prefixo_id": "seletivo-municipal-catanduva-<disciplina>-2025-qNN",
+      "observacoes": "Questão 14 (gerais): gabarito preliminar C alterado para A apos recursos dos candidatos."
+    },
+    {
+      "id": "enade-2025-geografia-licenciatura",
+      "concurso": "ENADE 2025 Licenciaturas - Geografia (Licenciatura) - INEP/Sinaes",
+      "data_prova": "1a aplicacao: Caderno 0801 Tipo 01, outubro/2025. 2a aplicacao: Caderno 0805 Tipo 05, novembro/2025.",
+      "banca": "INEP / Sinaes",
+      "numeracao_referencia": "Cada aplicacao tem numeracao propria de 1 a 80 (Formacao Geral Docente 1-30 + Componente Especifico de Geografia 31-80). As duas aplicacoes tem questoes DISTINTAS entre si (confirmado por leitura completa), por isso usam prefixos enade-1- e enade-2-.",
+      "prefixo_id": "enade-1-<disciplina>-2025-qNN (1a aplicacao) / enade-2-<disciplina>-2025-qNN (2a aplicacao)",
+      "observacoes": "Nao e a Prova Nacional Docente (PND) apesar do nome dos arquivos originais - e o ENADE (Exame Nacional de Desempenho de Estudantes), aplicado a concluintes de licenciatura, mas mantido no banco a pedido do usuario por cobrir conteudo especifico de Geografia e de formacao pedagogica util para revisao. A questao discursiva e o Questionario de Percepcao da Prova de cada caderno foram descartados (nao sao objetivas / nao sao conteudo)."
+    },
+    {
+      "id": "seletivo-municipal-pindorama-2022",
+      "concurso": "Processo Seletivo 2022 - Prefeitura Municipal de Pindorama/SP - Professor",
+      "data_prova": "2022",
+      "banca": "Não identificada no cabeçalho transcrito",
+      "numeracao_referencia": "Prova de 30 questões (1-30); questões fora do escopo do banco (outras disciplinas) foram descartadas, restando 25 de Português e Conhecimentos Gerais/Pedagógicos.",
+      "prefixo_id": "seletivo-municipal-pindorama-<disciplina>-2022-qNN",
+      "observacoes": "Prova sem gabarito oficial anexado - apenas marcações manuscritas de candidatos, desconsideradas. Respostas corretas determinadas por análise própria, com justificativa na explicacao de cada questão."
+    },
+    {
+      "id": "seletivo-municipal-itajobi-2023",
+      "concurso": "Processo Seletivo 2023 - Prefeitura Municipal de Itajobi/SP - Professor",
+      "data_prova": "2023",
+      "banca": "Não identificada no cabeçalho transcrito",
+      "numeracao_referencia": "Questões de Português (1-10) e Conhecimentos Gerais/Pedagógicos (11-21) mantidas; demais disciplinas fora do escopo descartadas.",
+      "prefixo_id": "seletivo-municipal-itajobi-<disciplina>-2023-qNN",
+      "observacoes": "Prova sem gabarito oficial anexado - apenas marcações manuscritas de candidatos, desconsideradas. Respostas corretas determinadas por análise própria, com justificativa na explicacao de cada questão."
+    },
+    {
+      "id": "seletivo-municipal-pindorama-manha-2023",
+      "concurso": "Processo Seletivo 2023 - Prefeitura Municipal de Pindorama/SP - Professor (aplicação da manhã)",
+      "data_prova": "2023",
+      "banca": "Não identificada no cabeçalho transcrito",
+      "numeracao_referencia": "Prova de 30 questões; Português (1-10) e Conhecimentos Gerais/Pedagógicos (16-30) mantidos, questões 11-15 (outra disciplina) descartadas.",
+      "prefixo_id": "seletivo-municipal-pindorama-manha-<disciplina>-2023-qNN",
+      "observacoes": "Prova sem gabarito oficial anexado - apenas marcações manuscritas de candidatos, desconsideradas. Respostas corretas determinadas por análise própria, com justificativa na explicacao de cada questão."
+    },
+    {
+      "id": "seletivo-municipal-pindorama-manha-reaplicacao-2023",
+      "concurso": "Processo Seletivo 2023 - Prefeitura Municipal de Pindorama/SP - Professor (reaplicação da manhã)",
+      "data_prova": "2023",
+      "banca": "Não identificada no cabeçalho transcrito",
+      "numeracao_referencia": "Prova de 30 questões; texto-base e questões distintas da aplicação original da manhã (confirmado por leitura completa).",
+      "prefixo_id": "seletivo-municipal-pindorama-manha-reaplicacao-<disciplina>-2023-qNN",
+      "observacoes": "Prova sem gabarito oficial anexado - apenas marcações manuscritas de candidatos, desconsideradas. Respostas corretas determinadas por análise própria, com justificativa na explicacao de cada questão."
+    },
+    {
+      "id": "seletivo-municipal-pindorama-tarde-2023",
+      "concurso": "Processo Seletivo 2023 - Prefeitura Municipal de Pindorama/SP - Professor (aplicação da tarde)",
+      "data_prova": "2023",
+      "banca": "Não identificada no cabeçalho transcrito",
+      "numeracao_referencia": "Prova de 30 questões; Português (1-10) e Conhecimentos Gerais/Pedagógicos (16-30) mantidos, questões 11-15 (outra disciplina) descartadas.",
+      "prefixo_id": "seletivo-municipal-pindorama-tarde-<disciplina>-2023-qNN",
+      "observacoes": "Prova sem gabarito oficial anexado - apenas marcações manuscritas de candidatos, desconsideradas. Respostas corretas determinadas por análise própria, com justificativa na explicacao de cada questão. Questão de Português q05 marcada como BAIXA CONFIANÇA na explicacao (ambiguidade entre função poética e metalinguística)."
+    },
+    {
+      "id": "seletivo-municipal-pindorama-tarde-reaplicacao-2023",
+      "concurso": "Processo Seletivo 2023 - Prefeitura Municipal de Pindorama/SP - Professor (reaplicação da tarde)",
+      "data_prova": "2023",
+      "banca": "Não identificada no cabeçalho transcrito",
+      "numeracao_referencia": "Prova de 30 questões; texto-base e questões distintas da aplicação original da tarde (confirmado por leitura completa).",
+      "prefixo_id": "seletivo-municipal-pindorama-tarde-reaplicacao-<disciplina>-2023-qNN",
+      "observacoes": "Prova sem gabarito oficial anexado - apenas marcações manuscritas de candidatos, desconsideradas. Respostas corretas determinadas por análise própria, com justificativa na explicacao de cada questão."
+    },
+    {
+      "id": "seletivo-municipal-catanduva-ingles-2023",
+      "concurso": "Processo Seletivo 2023 - Prefeitura Municipal de Catanduva/SP - Professor de Inglês",
+      "data_prova": "2023",
+      "banca": "IBAM (Instituto Brasileiro de Administração Municipal)",
+      "numeracao_referencia": "Questões de Português e Conhecimentos Gerais/Pedagógicos mantidas (18 questões); Conhecimentos Específicos de Inglês fora do escopo do banco, descartados.",
+      "prefixo_id": "seletivo-municipal-catanduva-ingles-<disciplina>-2023-qNN",
+      "observacoes": "Prova sem gabarito oficial anexado - apenas marcações manuscritas de candidatos, desconsideradas. Respostas corretas determinadas por análise própria, com justificativa na explicacao de cada questão. Mesma banca (IBAM) do concurso seletivo-municipal-catanduva-2025; verificado que não há questões repetidas entre as duas provas."
+    },
+    {
+      "id": "seletivo-municipal-catanduva-lp-2023",
+      "concurso": "Processo Seletivo 2023 - Prefeitura Municipal de Catanduva/SP - Professor de Língua Portuguesa",
+      "data_prova": "2023",
+      "banca": "IBAM (Instituto Brasileiro de Administração Municipal)",
+      "numeracao_referencia": "Prova de 30 questões, todas dentro do escopo do banco (Português e Conhecimentos Gerais/Pedagógicos).",
+      "prefixo_id": "seletivo-municipal-catanduva-lp-<disciplina>-2023-qNN",
+      "observacoes": "Prova sem gabarito oficial anexado - apenas marcações manuscritas de candidatos, desconsideradas. Respostas corretas determinadas por análise própria, com justificativa na explicacao de cada questão. Mesma banca (IBAM) do concurso seletivo-municipal-catanduva-2025; verificado que não há questões repetidas entre as duas provas."
+    },
+    {
+      "id": "seletivo-municipal-catanduva-edesp-2024",
+      "concurso": "Processo Seletivo 2024 - Prefeitura Municipal de Catanduva/SP - Professor de Educação Especial",
+      "data_prova": "2024",
+      "banca": "IBAM (Instituto Brasileiro de Administração Municipal)",
+      "numeracao_referencia": "Prova de 30 questões: Português (1-10), Conhecimentos Gerais/Pedagógicos (11-22) e Conhecimentos Específicos de Educação Especial (23-30).",
+      "prefixo_id": "seletivo-municipal-catanduva-edesp-<disciplina>-2024-qNN",
+      "observacoes": "Primeira prova a alimentar a nova categoria 'educacao-especial' (educacao-especial.json), criada especificamente para as questões 23-30 (conteúdo específico de prática em Educação Especial: PEI, AEE, adaptações por deficiência). Questões de legislação genérica sobre inclusão (LDB, ECA, Decreto 7611/2011 etc.) permaneceram em 'gerais', conforme já era o padrão do banco. Prova sem gabarito oficial anexado - apenas marcações manuscritas de candidatos, desconsideradas. Respostas corretas determinadas por análise própria, com justificativa na explicacao de cada questão. Mesma banca (IBAM) do concurso seletivo-municipal-catanduva-2025; verificado que não há questões repetidas entre as duas provas."
+    },
+    {
+      "id": "catanduva-ps02-2026",
+      "concurso": "Processo Seletivo 02/2026 - Prefeitura Municipal de Catanduva/SP - Professor Berçarista, Professor I e Professor II - Geografia",
+      "data_prova": "N/A - questões autorais, nao ha prova aplicada ainda",
+      "banca": "N/A",
+      "numeracao_referencia": "Nao se aplica - questoes originais criadas a partir do programa/bibliografia do Anexo II do edital (nao sao transcricao de uma prova aplicada)",
+      "prefixo_id": "catanduva-ps02-2026-<disciplina>-qNNN",
+      "observacoes": "100 questoes autorais (nao de prova real) escritas com base na bibliografia e legislacao do Anexo II do edital do Processo Seletivo 02/2026 de Catanduva/SP, a pedido do usuario, para cobrir o conteudo programatico de forma mais especifica do que os concursos ja transcritos. 56 questoes na disciplina \"gerais\" (legislacao/pedagogia generica, aplicavel a varios cargos) e 44 na disciplina nova \"educacao-infantil\" (pratica pedagogica e legislacao especifica da Educacao Infantil, relevante para Bercarista e Professor I). Ver tambem simulados.json: 3 simulados montados (Bercarista, Professor I, Professor II-Geografia), 40 questoes cada (10 Portugues + 15 Pedagogicos e Legislacao + 15 Conhecimentos Especificos), combinando estas questoes novas com questoes elegiveis ja existentes no banco. ATUALIZACAO 04/09/2026: usuario pediu 20 questoes novas especificamente de conteudo de Geografia (a pasta \"Conteudo por prova/Geografia\" nao tinha material geografico de fato, so pedagogia geral, e o Anexo II do edital nao cita bibliografia especifica para Geografia, so uma lista de topicos + BNCC). As 20 questoes (catanduva-ps02-2026-geografia-q001 a q020) cobrem os topicos do programa que ainda nao tinham cobertura no banco: historia do pensamento geografico (Humboldt/Ritter, Ratzel/determinismo, Vidal de la Blache/possibilismo), geologia/estrutura da Terra/tectonica de placas, climatologia (massas de ar, El Nino, classificacao de Koppen), biomas brasileiros, formacao territorial do Brasil (capitanias hereditarias, ciclos economicos, regionalizacao), espaco industrial, espaco agrario, dinamicas demograficas (Censo 2022, envelhecimento) e insercao do Brasil na economia global (dados atuais de comercio Brasil-China verificados via busca na web em 04/09/2026). Mesclado no geografia.json (140 -> 160 questoes) e o simulado de Professor II-Geografia em simulados.json foi atualizado para priorizar essas questoes novas no bloco de Conhecimentos Especificos."
+    }
+  ],
+  "simulados_ref": "simulados.json - 3 simulados (um por cargo: Bercarista, Professor I, Professor II-Geografia) para o Processo Seletivo 02/2026 de Catanduva. Estrutura por POOL (atualizada em 04/09/2026): cada bloco (Lingua Portuguesa / Conhecimentos Pedagogicos e Legislacao / Conhecimentos Especificos) tem uma quantidade fixa (10/15/15, conforme o edital) e um pool de ids elegiveis maior que essa quantidade; o app deve sortear a quantidade de dentro do pool a cada nova tentativa, para o simulado rotacionar questoes entre tentativas em vez de repetir sempre a mesma prova fixa.",
+  "sources_ref": "sources.json - links por categoria (Legislação, Pedagogia, Geografia) e assunto especifico, marcados como fonte-de-questao (usados para escrever questoes do banco, com id das questoes relacionadas) ou estudo (leitura complementar). Criado em 04/09/2026."
+}
