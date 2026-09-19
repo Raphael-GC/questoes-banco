@@ -1,16 +1,19 @@
 {
+  "versao": 2,
+  "atualizado_em": "2026-09-19",
+  "total_questoes": 894,
   "disciplinas": [
     {
       "id": "gerais",
       "nome": "Conhecimentos Gerais e Didático-Pedagógicos",
       "arquivo": "gerais-didatico-pedagogico.json",
-      "total_questoes": 254
+      "total_questoes": 374
     },
     {
       "id": "geografia",
       "nome": "Conhecimentos Específicos em Geografia",
       "arquivo": "geografia.json",
-      "total_questoes": 160
+      "total_questoes": 360
     },
     {
       "id": "portugues",
@@ -146,9 +149,18 @@
       "banca": "N/A",
       "numeracao_referencia": "Nao se aplica - questoes originais criadas a partir do programa/bibliografia do Anexo II do edital (nao sao transcricao de uma prova aplicada)",
       "prefixo_id": "catanduva-ps02-2026-<disciplina>-qNNN",
-      "observacoes": "100 questoes autorais (nao de prova real) escritas com base na bibliografia e legislacao do Anexo II do edital do Processo Seletivo 02/2026 de Catanduva/SP, a pedido do usuario, para cobrir o conteudo programatico de forma mais especifica do que os concursos ja transcritos. 56 questoes na disciplina \"gerais\" (legislacao/pedagogia generica, aplicavel a varios cargos) e 44 na disciplina nova \"educacao-infantil\" (pratica pedagogica e legislacao especifica da Educacao Infantil, relevante para Bercarista e Professor I). Ver tambem simulados.json: 3 simulados montados (Bercarista, Professor I, Professor II-Geografia), 40 questoes cada (10 Portugues + 15 Pedagogicos e Legislacao + 15 Conhecimentos Especificos), combinando estas questoes novas com questoes elegiveis ja existentes no banco. ATUALIZACAO 04/09/2026: usuario pediu 20 questoes novas especificamente de conteudo de Geografia (a pasta \"Conteudo por prova/Geografia\" nao tinha material geografico de fato, so pedagogia geral, e o Anexo II do edital nao cita bibliografia especifica para Geografia, so uma lista de topicos + BNCC). As 20 questoes (catanduva-ps02-2026-geografia-q001 a q020) cobrem os topicos do programa que ainda nao tinham cobertura no banco: historia do pensamento geografico (Humboldt/Ritter, Ratzel/determinismo, Vidal de la Blache/possibilismo), geologia/estrutura da Terra/tectonica de placas, climatologia (massas de ar, El Nino, classificacao de Koppen), biomas brasileiros, formacao territorial do Brasil (capitanias hereditarias, ciclos economicos, regionalizacao), espaco industrial, espaco agrario, dinamicas demograficas (Censo 2022, envelhecimento) e insercao do Brasil na economia global (dados atuais de comercio Brasil-China verificados via busca na web em 04/09/2026). Mesclado no geografia.json (140 -> 160 questoes) e o simulado de Professor II-Geografia em simulados.json foi atualizado para priorizar essas questoes novas no bloco de Conhecimentos Especificos."
+      "observacoes": "100 questoes autorais (nao de prova real) escritas com base na bibliografia e legislacao do Anexo II do edital do Processo Seletivo 02/2026 de Catanduva/SP, a pedido do usuario, para cobrir o conteudo programatico de forma mais especifica do que os concursos ja transcritos. 56 questoes na disciplina \"gerais\" (legislacao/pedagogia generica, aplicavel a varios cargos) e 44 na disciplina nova \"educacao-infantil\" (pratica pedagogica e legislacao especifica da Educacao Infantil, relevante para Bercarista e Professor I). Simulados por cargo (Bercarista, Professor I, Professor II-Geografia) definidos no codigo do app (SelecaoSimuladoScreen.kt), nao neste repositorio: 40 questoes cada (10 Portugues + 15 Pedagogicos e Legislacao + 15 Conhecimentos Especificos), sorteadas da disciplina inteira a cada tentativa. ATUALIZACAO 04/09/2026: usuario pediu 20 questoes novas especificamente de conteudo de Geografia (a pasta \"Conteudo por prova/Geografia\" nao tinha material geografico de fato, so pedagogia geral, e o Anexo II do edital nao cita bibliografia especifica para Geografia, so uma lista de topicos + BNCC). As 20 questoes (catanduva-ps02-2026-geografia-q001 a q020) cobrem os topicos do programa que ainda nao tinham cobertura no banco: historia do pensamento geografico (Humboldt/Ritter, Ratzel/determinismo, Vidal de la Blache/possibilismo), geologia/estrutura da Terra/tectonica de placas, climatologia (massas de ar, El Nino, classificacao de Koppen), biomas brasileiros, formacao territorial do Brasil (capitanias hereditarias, ciclos economicos, regionalizacao), espaco industrial, espaco agrario, dinamicas demograficas (Censo 2022, envelhecimento) e insercao do Brasil na economia global (dados atuais de comercio Brasil-China verificados via busca na web em 04/09/2026). Mesclado no geografia.json (140 -> 160 questoes)."
+    },
+    {
+      "id": "pnd-geografia-2026",
+      "concurso": "PND (Prova Nacional Docente) 2026 - Formação Geral Docente + Componente Específico de Geografia - INEP/MEC",
+      "data_prova": "domingo, 20/09/2026",
+      "banca": "INEP/MEC",
+      "numeracao_referencia": "Nao se aplica - questoes autorais elaboradas a partir da Matriz de Referencia da PND 2026 (Formacao Geral Docente: Portaria Inep no 315/2025, arts. 5o e 6o; componente especifico de Geografia: Portaria Inep no 323/2025, arts. 6o e 7o), nao sao transcricao de uma prova aplicada.",
+      "prefixo_id": "pnd26-fgd-<topico>-NN (Formacao Geral Docente, disciplina gerais) / pnd26-geo-<topico>-NN (componente especifico de Geografia, disciplina geografia)",
+      "observacoes": "320 questoes autorais adicionadas em 17-18/09/2026 (120 pnd26-fgd-* em gerais: 254 -> 374; 200 pnd26-geo-* em geografia: 160 -> 360), cobrindo os 24 objetos de conhecimento da Formacao Geral Docente e os 22 do componente especifico de Geografia das portarias citadas, tag por topico oficial (ver TOPICOS_FGD/TOPICOS_GEOGRAFIA_ESPECIFICO em SelecaoSimuladoScreen.kt). Usadas no simulado 'PND Geografia 2026' do app: 30 FGD + 50 Geografia, pool de cada bloco filtrado pela tag do topico oficial, sem a redacao."
     }
   ],
-  "simulados_ref": "simulados.json - 3 simulados (um por cargo: Bercarista, Professor I, Professor II-Geografia) para o Processo Seletivo 02/2026 de Catanduva. Estrutura por POOL (atualizada em 04/09/2026): cada bloco (Lingua Portuguesa / Conhecimentos Pedagogicos e Legislacao / Conhecimentos Especificos) tem uma quantidade fixa (10/15/15, conforme o edital) e um pool de ids elegiveis maior que essa quantidade; o app deve sortear a quantidade de dentro do pool a cada nova tentativa, para o simulado rotacionar questoes entre tentativas em vez de repetir sempre a mesma prova fixa.",
+  "simulados_ref": "Os simulados por cargo (PND Geografia 2026 e os 3 do PS 02/2026 de Catanduva) sao definidos no codigo do app (SelecaoSimuladoScreen.kt), nao neste repositorio - este banco so precisa conter as questoes e as tags usadas para filtrar cada bloco.",
   "sources_ref": "sources.json - links por categoria (Legislação, Pedagogia, Geografia) e assunto especifico, marcados como fonte-de-questao (usados para escrever questoes do banco, com id das questoes relacionadas) ou estudo (leitura complementar). Criado em 04/09/2026."
 }
